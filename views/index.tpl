@@ -1,5 +1,5 @@
 
-<h1>Hello {{fold}}</h1>
+<h1>Hello {{name}}</h1>
 
 
 <TABLE  BORDER="n">
@@ -15,9 +15,3 @@
       <TH>IP Address</TH>
    </TR>
 
-# % for mac_addr, ip_addr in d.items():
-#    <TR>
-#         <TH>s_no</TH>
-# 	<TH>mac_addr</TH>
-# 	<TH>ip_addr</TH>
-#    </TR>
